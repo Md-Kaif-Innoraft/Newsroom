@@ -1,0 +1,40 @@
+uuid: 93ba62d6-f652-4453-bbba-01862e850879
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_img.field_home_img
+    - field.field.paragraph.home_img.field_link
+    - paragraphs.paragraphs_type.home_img
+  module:
+    - image
+    - link
+id: paragraph.home_img.default
+targetEntityType: paragraph
+bundle: home_img
+mode: default
+content:
+  field_home_img:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

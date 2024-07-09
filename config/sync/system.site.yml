@@ -6,9 +6,9 @@ name: Newsroom
 mail: kaif.ansari@innoraft.com
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /node/15
+  404: /node/14
+  front: /node/13
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

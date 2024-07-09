@@ -1,0 +1,24 @@
+uuid: 1adba88a-7864-443b-a1c6-95001d294800
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_product_quote
+    - paragraphs.paragraphs_type.products
+  module:
+    - text
+id: paragraph.products.field_product_quote
+field_name: field_product_quote
+entity_type: paragraph
+bundle: products
+label: 'Product quote'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
