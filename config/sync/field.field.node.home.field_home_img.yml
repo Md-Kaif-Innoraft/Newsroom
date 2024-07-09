@@ -1,0 +1,37 @@
+uuid: 028648b6-d36e-4043-8f4e-8155b813eab4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_img
+    - node.type.home
+    - paragraphs.paragraphs_type.home_img
+  module:
+    - entity_reference_revisions
+id: node.home.field_home_img
+field_name: field_home_img
+entity_type: node
+bundle: home
+label: 'home img'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      home_img: home_img
+    negate: 0
+    target_bundles_drag_drop:
+      gallery_section:
+        weight: 4
+        enabled: false
+      home_img:
+        weight: 5
+        enabled: true
+      products:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

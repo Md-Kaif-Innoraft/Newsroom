@@ -1,0 +1,10 @@
+uuid: 970272ab-fe58-450b-b393-854f452aef98
+langcode: en
+status: true
+dependencies: {  }
+id: home_img
+label: 'home img'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,25 @@
+uuid: edf3e997-6678-47ab-b84e-642f33ea7f87
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_sidemenu
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-menu'
+settings:
+  id: 'system_menu_block:side-menu'
+  label: 'Side Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
